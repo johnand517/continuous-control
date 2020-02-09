@@ -4,7 +4,7 @@
 
 This project is attempting to solve the problem presented in the [Udacity](https://www.udacity.com/) Deep Reinforcement Learning (DRL) course for Artificial Intelligent that asks to set up a policy based approach to  train the computer to maximize the score provided by the environment.  
 
-The problem uses [Unity's ML Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/) to provide an environment in which there are both yellow and blue bananas on a 2D surface in a 3D space.  The objective is to train a two-jointed robotic arm to maximize the time the end of its appendage stays within a moving target. 
+The problem uses [Unity's ML Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/) to provide an environment in which there are both yellow and blue bananas on a 2D surface in a 3D space.  The objective is to train a two-jointed robotic arm to maximize the time the end of its appendage stays within a moving target.  The objective for this project is to achieve an averaged score of 30 over 100 episodes for a single agent, or to obtain a score of 30 averaged over 20 agents for a single episode.
 
 ## Learning Environment Set Up
 
