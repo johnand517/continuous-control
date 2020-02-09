@@ -43,6 +43,3 @@ Through applying the above learning agent, we are able to achieve for a single a
 - More exhaustive hyperparameter tuning
 - Exploration of training on multiple agents
 - Compare and contrast to other policy-based networks. e.g. [A3C](https://arxiv.org/pdf/1602.01783.pdf), [D4PG](https://openreview.net/pdf?id=SyZipzbCb)
-
-The problem contains an environment in which there is a two-jointed robotic, with each joint having two degrees of freedom.  There is a moving target in which we want to maximize the time the end of the robotic arm's appendage stays within the target. the state space is continutous, and the robotic arm has 4 total degrees of freedom, leading to 4 continutous actions.  The objective for this project is to achieve an averaged score of 30 over 100 episodes for a single agent, or to obtain a score of 30 averaged over 20 agents for a single episode.
-
