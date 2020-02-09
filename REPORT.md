@@ -34,13 +34,13 @@ Hyperparameters used for this approach are provided in the hyperparameters.py fi
 
 ## Current results
 
-Through applying the above learning agent, we are able to achieve for a single agent a target score (averaged over the prior 100 episodes) of 30 after ... episodes.  The results of our scores through successive training episodes are as shown:
+Through applying the above learning agent, we are able to achieve for a single agent a target score (averaged over the prior 100 episodes) of 30 after 122 episodes.  The results of our scores through successive training episodes are as shown:
 
-![Epoch Scores](/common/images/score_by_epoch.png "Epoch Scores")
+![Epoch Scores](/common/images/score_by_episode.png "Epoch Scores")
 
 ## Areas for improvement
 
 - More exhaustive hyperparameter tuning
-- Implementation of [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) which weights replay experiences by the loss parameter associated with them, and uses these weights to generate our sample batch while learning
-- Implementation of [Dueling Q Networks](https://arxiv.org/abs/1511.06581) which learns separately on state values and action values and combines the results from learning.  This could potentially more robustly identify our reward function.
+- Exploration of training on multiple agents
+- Compare and contrast to other policy-based networks. e.g. [A3C](https://arxiv.org/pdf/1602.01783.pdf), [D4PG](https://openreview.net/pdf?id=SyZipzbCb)
 

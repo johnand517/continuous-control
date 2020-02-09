@@ -61,7 +61,7 @@ class Agent():
         # Learn, if enough samples are available in memory
         if len(self.memory) > hp.batch_size:
             experiences = self.memory.sample()
-            self.learn(experiences, hp.gamma)
+            self.learn(experiences, hp.Gamma)
 
     def act(self, state, add_noise=True):
         """Returns actions given the provided states for the
